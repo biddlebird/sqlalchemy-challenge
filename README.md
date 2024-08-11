@@ -4,6 +4,22 @@
 
 For this project, I performed a detailed climate analysis and data exploration for Honolulu, Hawaii, using Python, SQLAlchemy, Pandas, and Matplotlib. The goal was to gather insights into the climate patterns and to design a Flask API that serves this information in a structured manner.
 
+## Dependencies
+
+```
+%matplotlib inline
+from matplotlib import style
+style.use('fivethirtyeight')
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import datetime as dt
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
+```
+
 ## Part 1: Analyze and Explore the Climate Data
 
 ### Database Setup
