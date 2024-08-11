@@ -23,11 +23,15 @@ For this project, I performed a detailed climate analysis and data exploration f
    - Loaded the data into a Pandas DataFrame, sorted by date, and plotted the results.
    - Calculated and printed the summary statistics for the precipitation data.
 
+![Alt.txt](https://github.com/biddlebird/sqlalchemy-challenge/blob/main/Plots/Precipitation%20Over%20the%20Last%2012%20Months.png)
+
 3. **Station Analysis:**
    - Designed a query to calculate the total number of stations in the dataset.
    - Identified the most-active stations (with the most observations) and listed them in descending order.
    - Queried and calculated the lowest, highest, and average temperatures for the most-active station.
    - Retrieved the last 12 months of temperature observations (TOBS) for this station and plotted the results as a histogram.
+
+![Alt.txt](https://github.com/biddlebird/sqlalchemy-challenge/blob/main/Plots/Temperature%20Observation%20for%20Station.png)
 
 ## Part 2: Design Your Climate App
 
@@ -50,6 +54,8 @@ python app.py
 ```
 
 This will start the Flask server, and the API will be accessible at `http://localhost:5000/`.
+
+![Alt.txt](https://github.com/biddlebird/sqlalchemy-challenge/blob/main/SurfsUp/app.png)
 
 ---
 
