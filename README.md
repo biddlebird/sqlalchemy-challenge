@@ -72,7 +72,3 @@ python app.py
 This will start the Flask server, and the API will be accessible at `http://localhost:5000/`.
 
 ![Alt.txt](https://github.com/biddlebird/sqlalchemy-challenge/blob/main/SurfsUp/app.png)
-
----
-
-This README captures the work you've done and provides instructions for others to understand and use your project.
